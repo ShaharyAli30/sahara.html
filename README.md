@@ -1,2 +1,265 @@
-# sahara.html
-webpage
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>desert
+    </title>
+    <style>
+        body{
+            background-color: rgb(40, 49, 74);
+        
+        }
+        .container{
+            position: fixed;
+            width: 190vh;
+            height: 90vh;
+            background-image:  url("des.jpg");
+            background-position: center;
+            background-size: cover;
+            padding-left: 86px;
+            padding-bottom: 55px;
+
+        } 
+
+        .nav a {
+            position: fixed;
+            text-decoration: none;
+            padding: 15px;
+            color: rgb(1, 3, 4);
+            position: relative;
+            left: 70%;
+            top: 60px;
+            font-size: 25px;
+            font-family: fantasy;
+        
+            
+        }
+        #img {
+            width: 40px;
+            height: 40px;
+            position: relative;
+            left: 95%;
+            top: 70px;
+            
+
+        }
+        input[ type = "search"]{
+            position: absolute;
+            top: 88px;
+            left: 800px;
+            
+           border: 4px solid rgb(183, 91, 26);
+           border-radius: 30px;
+           box-shadow: 0px 0px 25px darkred;
+           
+            
+        }
+        input[ type = "search"]:hover{
+            width: 300px;
+            background: fixed;
+        }
+        #img1{
+            position: relative;
+            top: 65px;
+            left: 750px;
+            height: 60px;
+            width: 60px;
+        }
+        .row{
+            position: relative;
+            bottom: -100px;
+            font-size: 30px;
+            text-shadow: 0px 0px 10px black;
+            font-family: Arial, Helvetica, sans-serif;
+            color: whitesmoke;
+        }
+        p{
+            font-size: 15px;
+            text-align: left;
+        }
+        button{
+            font-size: 15px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            border-radius: 50px;
+            width: 150px;
+            padding: 10px 0;
+            margin-top: 10px;
+            transition-property: width ;
+        }
+        button:hover{
+            width:160px ;
+            background-color:black ;
+            color: whitesmoke;
+        }
+
+        .box{
+            width: 200px;
+            height: 250px;
+            display: inline-block;
+            color: rgb(0, 0, 0);
+            border-radius: 20px;
+            padding: 10px;
+            background-image: url("1.jfif");
+            background-size: cover;
+            position: relative;
+            bottom: -20px;
+            font-size: 20px;
+            cursor: pointer;
+            transition-property: width ;
+        
+        }
+        .box:hover{
+            width: 205px;
+        }
+    
+        .box1{
+
+            width: 200px;
+            height: 250px;
+            display: inline-block;
+            color: rgb(0, 0, 0);
+            border-radius: 20px;
+            padding: 10px;
+            background-image: url("2.jfif");
+            background-size: cover;
+            position: relative;
+            bottom: -20px;
+            left: 50px;
+            font-size: 20px;
+            transition-property: width ;
+        }
+        .box1:hover{
+            width: 205px;
+        }
+        .box2{
+            transition-property: width ;
+width: 200px;
+height: 250px;
+display: inline-block;
+color: rgb(0, 0, 0);
+border-radius: 20px;
+padding: 10px;
+background-image: url("3.jfif");
+background-size: cover;
+position: relative;
+bottom: -20px;
+left: 100px;
+font-size: 20px;
+}
+.box2:hover{
+    width: 205px;
+}
+.box3{
+    transition-property: width ;
+width: 200px;
+height: 250px;
+display: inline-block;
+color: rgb(255, 239, 239);
+border-radius: 20px;
+padding: 10px;
+background-image: url("4.jpg");
+background-size: cover;
+position: relative;
+bottom: -20px;
+left: 150px;
+font-size: 20px;
+}
+.box3:hover{
+    width: 205px;
+}
+.box4{
+    transition-property: width ;
+width: 200px;
+height: 250px;
+display: inline-block;
+color: rgb(8, 8, 8);
+border-radius: 20px;
+padding: 10px;
+background-image: url("5.jpg");
+background-size: cover;
+position: relative;
+bottom: -20px;
+left: 210px;
+font-size: 20px;
+}
+.box4:hover{
+    width: 205px;
+}
+.boxs{
+    position: fixed;
+}
+#im{
+    width: 60px;
+    height: 60px;
+    left: -15px;
+    position: relative;
+    bottom: 250px;
+}
+h4{
+    position: relative;
+    bottom: 320px;
+    left: 60px;
+    color: whitesmoke;
+    text-shadow: 0px 0px 10px black;
+    font-size: 20px;
+    text-decoration: underline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+    </style>
+</head>
+<body>
+   <div class="container">
+      <div class="nav">
+        <img id="img" src="menu.png" alt="">
+
+        <a href="#"> Home</a>
+        <a href="#"> About</a>
+        <a href="#"> Contect</a>
+        <div class="row">
+            <h2> Sahara</h2>
+            <p>The Sahara is a desert on the African continent. With an area of 9,200,000 square kilometres, it is the largest hot desert in the world and the third-largest desert overall, smaller only than the deserts of Antarctica and the northern Arctic.The Sahara covers large parts of Algeria, Chad, Egypt, Libya, Mali, Mauritania, Morocco, Niger, Western Sahara, Sudan and Tunisia. It covers 9 million square kilometres (3,500,000 sq mi), amounting to 31% of Africa.</p>
+            <button type="button">Explore </button>
+             
+        </div>
+        
+
+
+      </div>
+      <div class="boxs">
+      <img id="im" src="t.png" alt="">
+      <h4>Tour Your Dreams</h4>
+      <div class="box">
+         <h3>Pyramid of Geza</h3>
+         <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+      <div class="box1">
+        <h3>Mountains</h3>
+        <p>Lorem ipsum dolor sit amet.</p>
+     </div>
+     <div class="box2">
+        <h3>Beach</h3>
+        <p>Lorem ipsum dolor sit amet.</p>
+     </div>
+     <div class="box3">
+        <h3>Forests</h3>
+        <p>Lorem ipsum dolor sit amet.</p>
+     </div>
+     <div class="box4">
+        <h3>History</h3>
+        <p>Lorem ipsum dolor sit amet.</p>
+     </div>
+    </div>
+
+
+     
+   </div>
+   
+    <input type="search" >
+    <img  id="img1" src="search.png" alt="">
+  
+    
+    
+</body>
+</html>
